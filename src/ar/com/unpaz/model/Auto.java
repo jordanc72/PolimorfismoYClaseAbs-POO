@@ -19,4 +19,9 @@ public class Auto extends Vehiculo{
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Auto: " + super.toString();
+	}
+
 }

@@ -18,4 +18,8 @@ public class Camion extends Vehiculo{
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "Camion: " + super.toString();
+	}
 }
